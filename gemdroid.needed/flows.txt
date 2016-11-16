@@ -1,0 +1,63 @@
+0 0 8 1 -1
+0 10 3 -1
+1 0 5 12 1 -1
+1 0 5 9 7 -1
+1 0 4 11 -1
+2 0 5 12 1 -1
+2 0 5 12 7 -1
+3 0 6 10 3 -1
+4 5 12 1 -1
+4 13 1 -1
+4 0 10 3 -1
+5 0 6 12 1 -1
+6 4 11 7 -1
+7 0 6 8 1 -1
+7 0 6 10 3 -1
+8 0 1 -1
+8 13 1 -1
+8 10 3 -1
+9 0 8 1 -1
+9 0 5 9 2 -1
+9 0 4 11 -1
+9 0 10 3 -1
+10 0 12 1 -1
+11 13 1 -1
+11 0 9 7 -1
+12 0 1 9 2 -1
+13 0 5 9 2 -1
+14 0 2 13 8 -1
+15 0 1 -1
+16 0 1 -1
+17 0 1 -1
+
+
+youtube 0
+video-record 1
+photo-capture 2
+audio-play 3
+argame 4
+gallery 5
+audio-record 6
+video-play 7
+angrybirds 8
+skype 9
+facebook 10
+mpgame 11
+screenshare 12
+webcam  13
+sec-vid 14
+browser 15
+email 16
+calc 17
+other 18
+
+Comments:
+<app_id> <ip1> <ip2> ...
+If an IP starts after CPU completes, then the flow will start with 0(cpu).
+Else, the IP is the start of a flow.
+If the first IP is called right after the frame starts without the need for CPU computation, then its own id is embedded as the first one.
+
+
+1 0 5 12 1 -1
+1 0 5 9 7 -1
+1 0 4 11 7 -1
